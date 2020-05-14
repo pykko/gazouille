@@ -11,12 +11,12 @@ create table Gazouilleur (
 ) ;
 
 
-create table Gazouilli (
-	idGazouilli int not null ,
+create table Gazouillis (
+	idGazouillis int not null ,
 	texte varchar(200) not null ,
-	dateGazouilli date not null ,
+	dateGazouillis date not null ,
 	idGazouilleur int not null ,
-	primary key( idGazouilli ) ,
+	primary key( idGazouillis ) ,
 	foreign key(idGazouilleur) references Gazouilleur(idGazouilleur)
 ) ;
 
