@@ -21,7 +21,7 @@ create table Gazouilli (
 ) ;
 
 
-create table Poster (
+create table Suivre (
 	abonne int not null ,
 	suivi int not null ,
 	primary key(abonne,suivi) ,
